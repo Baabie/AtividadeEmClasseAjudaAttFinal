@@ -1,6 +1,6 @@
 import { Base } from "./Base";
 
-export class Produto extends Base{
+export class Product extends Base{
     public name: string;
     public value: number;
 
