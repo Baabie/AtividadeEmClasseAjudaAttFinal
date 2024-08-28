@@ -1,4 +1,5 @@
 import { Base } from "./Base";
+import { Comment } from "./Comment";
 
 export class Product extends Base{
     public name: string;
@@ -12,6 +13,9 @@ export class Product extends Base{
     }
 
     public show(): string{
+        const resposta = `Produto: ${this.name}\n Valor: R$${this.value}`
+        console.log(resposta);
+        console.log()
         return ""
     }
 
@@ -20,7 +24,7 @@ export class Product extends Base{
     }
 
     public comment(content: string, user: any): void{// any só para n dar erro, trocar para User.
-
+        const comment = new Comment(content, this, user);
     }
 
     public rate(rate: number, user: any): void{

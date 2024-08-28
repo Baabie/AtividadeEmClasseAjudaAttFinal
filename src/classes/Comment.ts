@@ -2,7 +2,7 @@ import { Base } from "./Base";
 import { Product } from "./Product";
 import { User } from "./User";
 
-export class Comments extends Base{
+export class Comment extends Base{
     public content: string;
     private _product: Product;
     private _fromUser: User;
