@@ -7,12 +7,12 @@ Um sistema de e-comerce, que possui produtos e usuários, onde é possível o us
 - Banco de dados em memória (array).
 
 - Requisitos:
-    
-    - `Req 1:` usuário adiciona produtos ao seu carrinho.
 
-    - `Req 2:` usuário cria comentários.
+  - `Req 1:` usuário adiciona produtos ao seu carrinho.
 
-    - `Req 3:` listar produtos do carrinho de um usuário.
+  - `Req 2:` usuário cria comentários.
 
-    - `Req 4:` listar produtos junto com seus comentários.
-        <img src="./Ilustração.png" alt= "Diagrama UML - E-comerce" style="background: #ffff">
+  - `Req 3:` listar produtos do carrinho de um usuário.
+
+  - `Req 4:` listar produtos junto com seus comentários.
+    <img src="./Ilustração.png" alt= "Diagrama UML - E-comerce" style="background: #ffff">
